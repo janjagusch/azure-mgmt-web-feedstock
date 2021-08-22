@@ -11,7 +11,7 @@ source:
 
 build:
   noarch: python
-  number: 0
+  number: 1
   script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
@@ -22,6 +22,7 @@ requirements:
     - python >3.0
     - azure-common ~=1.1
     - azure-mgmt-core >=1.2.0,<2.0.0
+    - msrest >=0.6.21
 
 test:
   imports:
