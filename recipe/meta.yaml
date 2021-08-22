@@ -1,5 +1,5 @@
 {% set name = "azure-mgmt-web" %}
-{% set version = "0.48.0" %}
+{% set version = "4.0.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.zip
-  sha256: da0f9e3b57528c72a7bc92e3515413a4a4fdbc9626c26ac04b7551a7739a81ec
+  sha256: e57437a933e7dea9b0618fe790e0dadc63f9857735361ac8b5f5e8062b9c2a0d
 
 build:
   noarch: python
@@ -20,9 +20,8 @@ requirements:
     - pip
   run:
     - python >3.0
-    - msrest >=0.5.0
-    - msrestazure >=0.4.32,<2.0.0
-    - azure-common >=1.1,<2.0
+    - azure-common ~=1.1
+    - azure-mgmt-core >=1.2.0,<2.0.0
 
 test:
   imports:
