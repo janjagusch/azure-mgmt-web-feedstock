@@ -9,7 +9,7 @@ package:
   version: ${{ version }}
 
 source:
-  url: https://pypi.io/packages/source/${{ name[0] }}/${{ name }}/${{ name }}-${{ version }}.zip
+  url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/${{ name }}-${{ version }}.zip
   sha256: 5b16cde7e30dc20466b911ffbc49a57258c7ef2958472c4dcf612ff1a012f15c
 
 build:
