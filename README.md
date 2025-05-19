@@ -143,8 +143,6 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
+* [@janjagusch](https://github.com/janjagusch/)
 * [@tim-werner](https://github.com/tim-werner/)
-
-
-<!-- dummy commit to enable rerendering -->
 
