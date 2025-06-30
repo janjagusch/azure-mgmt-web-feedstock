@@ -7,7 +7,7 @@
 
 [project]
 name = "azure-mgmt-web-feedstock"
-version = "3.48.1"  # conda-smithy version used to generate this file
+version = "3.50.1"  # conda-smithy version used to generate this file
 description = "Pixi configuration for conda-forge/azure-mgmt-web-feedstock"
 authors = ["@conda-forge/azure-mgmt-web"]
 channels = ["conda-forge"]
