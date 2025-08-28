@@ -6,3 +6,6 @@ conda_build:
   pkg_format: '2'
 conda_install_tool: pixi
 conda_build_tool: rattler-build
+bot:
+  automerge: false
+  inspection: update-grayskull
